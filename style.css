@@ -73,12 +73,20 @@ nav{
     margin: auto;
     width: 531px;    
 }
+
 footer{
     text-align: center;
     background-color: var(--cor0);
     color: var(--cor4);
     padding: 2px;
 }
+
+.flex{
+    display: flex;
+    justify-content: ;
+    flex-wrap: wrap;
+}
+
 .loc{
     padding-top: 130px;
 }
@@ -109,6 +117,14 @@ footer>p{
     color: var(--cor1);
 }
 
+div.center{
+    padding: 40px;
+    max-width: 40%;
+}
+
+div>img{
+    max-width: fit-content;
+}
 .main{
     font-size: 4em;
     color: var(--cor0);
